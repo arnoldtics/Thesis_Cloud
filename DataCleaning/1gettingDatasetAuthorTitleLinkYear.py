@@ -33,7 +33,7 @@ def thesisDataframe(filename:str) -> pd.DataFrame:
                 mat.append(instance)
             else: instance = clean(line)
         mat = np.array(mat)
-    return pd.DataFrame(data=mat, columns=["Name", "Last Name", "Title", "Year"])
+    return pd.DataFrame(data=mat, columns=["Name", "Title", "Link", "Year"])
 
 df = thesisDataframe("1800-1899_thesis-link.txt")
 df = pd.concat([df, thesisDataframe("1900-1919_thesis-link.txt")])
