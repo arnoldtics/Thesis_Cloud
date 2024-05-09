@@ -30,7 +30,7 @@ header {
 .home-link {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none; 
-    color: goldenrod; 
+    color:#fff; 
     font-weight: bold; 
     font-size: x-large;
     display: inline-block; 
@@ -54,4 +54,29 @@ header {
     color: #fff;
     font-size: large;
     vertical-align: middle;
+}
+
+.main-content{
+    background-color: lightcyan;
+}
+
+.main.container {
+    max-width: 1375px; 
+    margin: 0 auto;
+    padding: 30px; 
+}
+
+.title {
+    color:darkblue; 
+    font-size: 32px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior del título */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.visualization {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Mostrar la imagen como bloque para centrarla */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    margin-top: 20px; /* Espacio superior de la imagen */
 }
