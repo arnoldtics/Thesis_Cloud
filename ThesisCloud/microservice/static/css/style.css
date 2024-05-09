@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue; 
+    color: goldenrod;
+    padding: 20px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left; 
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 120px;
+}
+
+.home-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    color: goldenrod; 
+    font-weight: bold; 
+    font-size: x-large;
+    display: inline-block; 
+    width: auto; 
+    vertical-align: 50px;
+}
+
+.menu li{
+    display: inline;
+    margin-inline: 30px;
+}
+
+.bottom{
+    background-color: blue;
+    padding: 20px;
+}
+
+.footer-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: large;
+    vertical-align: middle;
+}

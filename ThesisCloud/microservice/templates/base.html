@@ -10,22 +10,35 @@
 </head>
 <body>
     
-    <header>
-        <a href="{% url 'Thesis_Cloud' %}">
-            <img src="{% static 'img/Logo.png' %}" alt="Thesis Cloud">
-        </a>
-        <a href="{% url 'Thesis_Cloud' %}">
-            Home
-        </a>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="menu">
+                <li>
+                    <a href="{% url 'Thesis_Cloud' %}" class="logo-link">
+                        <img src="{% static 'img/Logo.png' %}" alt="Thesis Cloud" class="logo-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'Thesis_Cloud' %}" class="home-link">Thesis Cloud</a>
+                </li>
+                <li>
+                    <a href="{% url 'Thesis_Cloud' %}" class="home-link">Home</a>
+                </li>
+                </ul>
+        </nav>
     </header>
 
-    <main>
+    <main class="main-content">
         {% block content %}
         {% endblock %}
     </main>
 
-    <footer>
-        <div>
+    <footer class="bottom">
+        <div class="footer-text">
+            Arnoldo Fernando Chue Sánchez
+        </div>
+        <br>
+        <div class="footer-text">
             @ 2024 Thesis Cloud
         </div>
     </footer>
