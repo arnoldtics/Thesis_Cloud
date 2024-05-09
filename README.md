@@ -5,7 +5,6 @@ Thesis Content Validation System for Bachelor's Degrees at the National Autonomo
 
 ## Author and Contact
 - Arnoldo Fernando Chue Sánchez: arnoldwork20@gmail.com
-- Gerardo Zabdiel Martínez Zavala: gm546161@gmail.com
 
 ## License
 GNU General Public License v3.0
@@ -53,8 +52,11 @@ This work represents an innovative approach that has not yet been explored and o
     - Pandas
     - Selenium
     - Requests
-    - Machine learning libraries (scikit-learn)
-    - Natural Language Processing and Deep Learning libraries (Pytorch)
+    - Pickle
+    - Natural Language Processing and Deep Learning libraries 
+        - Spacy
+        - Gensim
+        - Word2vec
 - Database administration systems
     - SQL (MySQL)
     - Dataset (Pandas)
@@ -62,9 +64,12 @@ This work represents an innovative approach that has not yet been explored and o
     - Bash
 - Docker
 - Cloud Service
-    - AWS/Microsoft Azure/Google Cloud
-- Apache HTTPD
+    - AWS
+- Web framework
+    - Django
+- Nginx
 
 ## General System Architecture
 The general system architecture for Thesis Cloud.
+
 ![General System Architecture](/img/GeneralSystemArchitecture.png)
