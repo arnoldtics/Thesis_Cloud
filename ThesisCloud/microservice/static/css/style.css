@@ -74,11 +74,11 @@ header {
 }
 
 .visualization {
-    max-width: 100%; /* Ancho máximo de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
-    display: block; /* Mostrar la imagen como bloque para centrarla */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-    margin-top: 20px; /* Espacio superior de la imagen */
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20px; 
 }
 
 .subtitle{
@@ -122,4 +122,18 @@ header {
     box-sizing: border-box; 
     font-size: 16px; 
     background-color: #fff;
+}
+
+.subtitle {
+    color:darkblue; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thesis_text{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
 }

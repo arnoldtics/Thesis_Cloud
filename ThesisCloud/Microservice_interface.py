@@ -23,11 +23,11 @@ def most_related_thesis(dataframe, new_title, model):
     return dataframe.loc[results]
 
 def sending_results(dataframe):
-    results = {}
+    results = []
     for i in dataframe.index:
         title = dataframe.loc[i]["Title"]
         author = dataframe.loc[i]["Name"]
         year = dataframe.loc[i]["Year"]
         link = dataframe.loc[i]["Link"]
-        results[i] = {"title": title, "author": author, "year": year, "link": link}
+        results.append([title, author, year, link])
     return results

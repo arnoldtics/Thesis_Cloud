@@ -7,7 +7,13 @@
 {% block content %}
     <div class="main container">
         <h1 class="title">Results for your search</h1>
-        <br>
-        
+        {% for thesis in results %}
+            <br>
+            <h2 class="subtitle">Thesis</h2>
+            <p class="thesis_text">Title: {{ thesis.0 }}</p>
+            <p class="thesis_text">Author: {{ thesis.1 }}</p>
+            <p class="thesis_text">Year: {{ thesis.2 }}</p>
+            <p class="thesis_text">Link: {{ thesis.3 }}</p>
+        {% endfor %}
     </div>
 {% endblock %}
