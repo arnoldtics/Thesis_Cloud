@@ -15,7 +15,7 @@ Final project for the Distributed Computing (Cloud Computing) 2024-2 class, desi
 ## Introduction
 Being recognized as the premier university in Mexico, the National Autonomous University of Mexico (UNAM) boasts the largest collection of bachelor's thesis in the country. With a repository comprising over 400,000 research documents spanning nearly two centuries, dating back to the oldest bachelor's thesis from 1840, UNAM stands as a beacon of academic excellence.
 
-While these invaluable resources are physically accessible within the university's main library, the digitization of this vast collection posed a significant challenge. Thus, the concept of TESIUNAM was conceived: a digital repository housing the entirety of UNAM's thesis collection in various formats. (Prior to the advent of the Portable Document Format (PDF), the theses were digitized using videofilm technology.)in all their different formats. (Prior to the advent of the Portable Document Format (PDF), the thesis were digitized using videofilm technology.)
+While these invaluable resources are physically accessible within the university's main library, the digitization of this vast collection posed a significant challenge. Thus, the concept of TESIUNAM was conceived: a digital repository housing the entirety of UNAM's thesis collection in all their different formats. (Prior to the advent of the Portable Document Format (PDF), the thesis were digitized using videofilm technology.)
 
 In light of this endeavor, Thesis_Cloud emerges as an innovative solution. By leveraging the wealth of data contained within UNAM's bachelor's thesis, this project aims to explore the potential of cloud computing services to benefit students, UNAM, and the nation as a whole.
 
@@ -42,32 +42,37 @@ This work represents an innovative approach that has not yet been explored and o
 3. Create a platform to access this classification, where users can input their new thesis titles. The algorithm will then provide access to previously published theses that are related to the user's research topic.
 
 ## Toolset
-*The following toolset may change during the development of the project. However, it will include the following technologies*
-- TESIUNAM
-- Python
-    - Standard library
-    - Numpy
-    - Matplotlib
-    - Seaborn
-    - Pandas
-    - Selenium
-    - Requests
-    - Pickle
-    - Natural Language Processing and Deep Learning libraries 
-        - Spacy
-        - Gensim
-        - Word2vec
-- Database administration systems
-    - SQL (MySQL)
-    - Dataset (Pandas)
-- Automatization
-    - Bash
-- Docker
-- Cloud Service
-    - AWS
-- Web framework
-    - Django
-- Nginx
+- Current Technologies
+    - TESIUNAM
+    - Python
+        - Standard library
+        - Numpy
+        - Matplotlib
+        - Pickle
+        - Natural Language Processing and Deep Learning libraries 
+            - Spacy
+            - Gensim
+                - Word2vec
+    - Datasets manipulation 
+        - Pandas
+    - Web Scraping
+        - Selenium
+        - Requests
+    - Automatization
+        - Bash
+    - Web framework
+        - Django
+- Technologies for Future Development
+    - Seaborn (Improve data visualization)
+    - Database administration systems
+        - SQL
+            - MySQL
+            - PostgreSQL
+    - Cloud Service
+        - AWS
+    - Web Server
+        - Nginx
+    - Docker
 
 ## General System Architecture
 The general system architecture for Thesis Cloud.
