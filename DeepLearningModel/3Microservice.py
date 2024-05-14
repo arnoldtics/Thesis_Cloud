@@ -11,7 +11,7 @@ def preprocess_text(text):
     tokens = [token.lemma_ for token in doc if not token.is_stop and token.is_alpha]
     return tokens
 
-def most_related_tesis(dataframe, new_title, model):
+def most_related_thesis(dataframe, new_title, model):
     jacard = []
     vector = model.wv[preprocess_text(new_title)]
     similarTitles = model.wv.most_similar(positive=vector, topn=10)
@@ -35,6 +35,6 @@ def presenting_results(dataframe):
 
 if __name__ == "__main__":
     title = input("Write the new thesis title:\n").strip()
-    df_results = most_related_tesis(df, title, model)
+    df_results = most_related_thesis(df, title, model)
     print("The ten most related theses are:")
     presenting_results(df_results)

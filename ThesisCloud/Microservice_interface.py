@@ -1,17 +1,13 @@
 import pandas as pd
-import pickle
 import spacy
 
-df = pd.read_csv("PreprocessTesis.zip")
-model = pickle.load(open("model1", "rb"))
-nlp = spacy.load("es_core_news_sm")
-
 def preprocess_text(text):
+    nlp = spacy.load("es_core_news_sm")
     doc = nlp(text)
     tokens = [token.lemma_ for token in doc if not token.is_stop and token.is_alpha]
     return tokens
 
-def most_related_tesis(dataframe, new_title, model):
+def most_related_thesis(dataframe, new_title, model):
     jacard = []
     vector = model.wv[preprocess_text(new_title)]
     similarTitles = model.wv.most_similar(positive=vector, topn=10)

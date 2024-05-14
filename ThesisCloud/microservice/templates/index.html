@@ -12,8 +12,7 @@
         <div class="microservice">
             <h2 class="subtitle">Microservice</h2>
             <p class="text">Please write your thesis topic or title. We will provide you with the tenth most related thesis previously published.</p>
-            <form method="post" action="{% url 'microservice' %}">
-                {% csrf_token %}
+            <form method="get" action="microservice/">
                 <input class="input" type="text" name="microservice" placeholder="Enter your thesis topic or title" required>
                 <button class="button" type="submit">Submit</button>
             </form>
