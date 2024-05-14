@@ -74,7 +74,73 @@ This work represents an innovative approach that has not yet been explored and o
         - Nginx
     - Docker
 
+## Usage Instructions & Requirements
+First of all, it is necessary to have each of the tools of the current development installed. The versions used in the project are:
+- Python 3.12
+- Numpy 1.24.4
+- Matplotlib 3.8.3
+- Pickle 4.0
+- Spacy 3.7.4
+- Spacy Spanish Model: es_core_news_sm
+- Gensim 4.3.2
+- Pandas 2.2.0
+- Selenium 4.17.2
+- Requests 2.31.0
+- Django 5.0.3
+With everything properly installed and updated, clone the repository and run the Django server. It can be found in the ThesisCloud directory, where you should run 'py manage.py runserver'. This will allow you to access the website locally at the URL 127.0.0.1:8000. Once on the page, follow the instructions and enjoy the microservice.
+
 ## General System Architecture
 The general system architecture for Thesis Cloud.
 
 ![General System Architecture](/img/GeneralSystemArchitecture.png)
+
+## Metodology
+
+
+## Testing and Results
+- Thesis Cloud Home Page
+
+- Visualization of the number of theses published per year 
+
+- Microservice
+
+- Let's do some testing of our microservice with the following topics (this must be in Spanish)
+    - Matemáticas discretas
+    - Sismos
+    - Saturno
+    - Arte barroco
+    - Ecología de bosques de pino
+    - Calentamiento global
+    - Pedagogía
+    - Oceanografía
+    - Bolsa de valores
+    - Vacunas
+    - Pandemia
+    - Tortugas marinas
+    - Sociología
+    - Antropología
+    - Newton
+    - México
+
+## Conclusions
+
+
+## References
+- TESIUNAM
+    - https://tesiunam.dgb.unam.mx/
+- Web Scraping
+    - Mitchell, R. (2018). Web Scraping with Python. O’Reilly.
+- Data Wrangling
+    - Vanderplas, J. (2017). Python Data Science Handbook. O’Reilly.
+- Machine Learning and Deep Learning
+    - Skiena, S. S. (2017). The Data Science Design Manual. Springer.
+- Django
+    - W3Schools. Django Tutorial. https://www.w3schools.com/django/index.php
+- Spacy Documentation
+    - https://spacy.io/
+- Spacy Spanish Model
+    - https://spacy.io/models/es
+- Gensim Documentation
+    - https://radimrehurek.com/gensim/auto_examples/index.html#documentation
+- Gensim Word2Vec Model
+    - https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py
