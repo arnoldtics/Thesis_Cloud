@@ -87,6 +87,7 @@ First of all, it is necessary to have each of the tools of the current developme
 - Selenium 4.17.2
 - Requests 2.31.0
 - Django 5.0.3
+
 With everything properly installed and updated, clone the repository and run the Django server. It can be found in the ThesisCloud directory, where you should run 'py manage.py runserver'. This will allow you to access the website locally at the URL 127.0.0.1:8000. Once on the page, follow the instructions and enjoy the microservice.
 
 ## General System Architecture
