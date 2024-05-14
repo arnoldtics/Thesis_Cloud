@@ -95,3 +95,31 @@ header {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+.button {
+    align-content: center;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    background-color: #fff;
+}
