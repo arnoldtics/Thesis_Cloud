@@ -76,19 +76,19 @@ This work represents an innovative approach that has not yet been explored and o
 
 ## Usage Instructions & Requirements
 First of all, it is necessary to have each of the tools of the current development installed. The versions used in the project are:
-- Python 3.12
-- Numpy 1.24.4
-- Matplotlib 3.8.3
-- Pickle 4.0
-- Spacy 3.7.4
-- Spacy Spanish Model: es_core_news_sm
-- Gensim 4.3.2
-- Pandas 2.2.0
-- Selenium 4.17.2
-- Requests 2.31.0
-- Django 5.0.3
+- Python 3.12 https://www.python.org/downloads/release/python-3120/
+- Numpy 1.24.4 https://numpy.org/devdocs/release/1.24.4-notes.html
+- Matplotlib 3.8.3 https://matplotlib.org/3.8.3/users/release_notes.html#version-3-8
+- Pickle 4.0 https://docs.python.org/3/library/pickle.html
+- Spacy 3.7.4 https://spacy.io/usage
+- Spacy Spanish Model: es_core_news_sm https://spacy.io/models
+- Gensim 4.3.2 https://pypi.org/project/gensim/
+- Pandas 2.2.0 https://pandas.pydata.org/docs/dev/whatsnew/v2.2.0.html
+- Selenium 4.17.2 https://www.selenium.dev/blog/2024/selenium-4-17-released/
+- Requests 2.31.0 https://pypi.org/project/requests/
+- Django 5.0.3 https://docs.djangoproject.com/en/5.0/releases/5.0.3/
 
-With everything properly installed and updated, clone the repository and run the Django server. It can be found in the ThesisCloud directory, where you should run 'py manage.py runserver'. This will allow you to access the website locally at the URL 127.0.0.1:8000. Once on the page, follow the instructions and enjoy the microservice.
+With everything properly installed and updated, clone the repository, move to the directory "ThesisCloud", and run the Django server. You can do it writing on your terminal 'py manage.py runserver'. This will allow you to access the website locally at the URL 127.0.0.1:8000. Once on the page, you can enjoy the microservice.
 
 ## General System Architecture
 The general system architecture for Thesis Cloud.
@@ -105,7 +105,7 @@ The general system architecture for Thesis Cloud.
 
 - Microservice
 
-- Let's do some testing of our microservice with the following topics (this must be in Spanish)
+- Let's do some testing of our microservice with the following topics (this must be in Spanish because we train our model with the theses published by the National Autonomous University of Mexico (UNAM))
     - Matemáticas discretas
     - Sismos
     - Saturno
@@ -122,6 +122,9 @@ The general system architecture for Thesis Cloud.
     - Antropología
     - Newton
     - México
+    - Software para radiotelescopios
+    - Machine learning
+
 
 ## Conclusions
 
