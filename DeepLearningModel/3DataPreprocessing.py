@@ -13,4 +13,4 @@ def preprocess_text(text):
 
 df["Vector"] = df["Title"].apply(preprocess_text)
 
-df.to_csv("PreprocessTesis.csv")
+df.to_csv("PreprocessTesis.csv", index=False)
