@@ -142,8 +142,11 @@ These microservice implementation functions were not only written in the directo
 ![Saturno 7-9](/img/saturno3.png)
 ![Saturno 10](/img/saturno4.png)
 - Arte barroco
-
-    - Ecología de bosques de pino
+![Arte barroco 1-3](/img/arte_barroco1.png)
+![Arte barroco 4-6](/img/arte_barroco2.png)
+![Arte barroco 7-9](/img/arte_barroco3.png)
+![Arte barroco 10](/img/arte_barroco4.png)
+- Ecología de bosques de pino
     - Calentamiento global
     - Pedagogía
     - Oceanografía
