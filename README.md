@@ -212,8 +212,12 @@ These microservice implementation functions were not only written in the directo
 ![Software para radiotelescopios 7-9](/img/softwareRadiotelescopios3.png)
 ![Software para radiotelescopios 10](/img/softwareRadiotelescopios4.png)
 - Machine learning
+![Machine learning 1-3](/img/machineLearning1.png)
+![Machine learning 4-6](/img/machineLearning2.png)
+![Machine learning 7-9](/img/machineLearning3.png)
+![Machine learning 10](/img/machineLearning4.png)
+- Análisis de cuencas hídricas
 
-    - Análisis de cuencas hídricas
     - Volcanes
 
 ## Conclusions
