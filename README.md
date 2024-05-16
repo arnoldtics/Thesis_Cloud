@@ -221,8 +221,11 @@ These microservice implementation functions were not only written in the directo
 ![Análisis de cuencas hídricas 4-6](/img/cuencas2.png)
 ![Análisis de cuencas hídricas 7-9](/img/cuencas3.png)
 ![Análisis de cuencas hídricas 10](/img/cuencas4.png)
-- Volcanes
-
+- Vulcanología
+![Vulcanología 1-3](/img/vulcanologia1.png)
+![Vulcanología 4-6](/img/vulcanologia2.png)
+![Vulcanología 7-9](/img/vulcanologia3.png)
+![Vulcanología 10](/img/vulcanologia4.png)
 
 ## Conclusions
 
