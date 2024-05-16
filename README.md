@@ -132,8 +132,12 @@ These microservice implementation functions were not only written in the directo
 ![Matemáticas discretas 7-9](/img/discretas3.png)
 ![Matemáticas discretas 10](/img/discretas4.png)
 - Sismos
+![Sismos 1-3](/img/sismos1.png)
+![Sismos 4-6](/img/sismos2.png)
+![Sismos 7-9](/img/sismos3.png)
+![Sismos 10](/img/sismos4.png)
+- Saturno
 
-    - Saturno
     - Arte barroco
     - Ecología de bosques de pino
     - Calentamiento global
