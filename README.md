@@ -152,7 +152,11 @@ These microservice implementation functions were not only written in the directo
 ![Ecología de bosques de pino 7-9](/img/ecologiaPinos3.png)
 ![Ecología de bosques de pino 10](/img/ecologiaPinos4.png)
 - Calentamiento global
-    - Pedagogía
+![Calentamiento global 1-3](/img/calentamientoGlobal1.png)
+![Calentamiento global 4-6](/img/calentamientoGlobal2.png)
+![Calentamiento global 7-9](/img/calentamientoGlobal3.png)
+![Calentamiento global 10](/img/calentamientoGlobal4.png)
+- Pedagogía
     - Oceanografía
     - Bolsa de valores
     - Vacunas
