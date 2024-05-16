@@ -157,7 +157,11 @@ These microservice implementation functions were not only written in the directo
 ![Calentamiento global 7-9](/img/calentamientoGlobal3.png)
 ![Calentamiento global 10](/img/calentamientoGlobal4.png)
 - Pedagogía
-    - Oceanografía
+![Pedagogía 1-3](/img/pedagogia1.png)
+![Pedagogía 4-6](/img/pedagogia2.png)
+![Pedagogía 7-9](/img/pedagogia3.png)
+![Pedagogía 10](/img/pedagogia4.png)
+- Oceanografía
     - Bolsa de valores
     - Vacunas
     - Pandemia
