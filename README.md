@@ -125,8 +125,14 @@ These microservice implementation functions were not only written in the directo
 ![Microservice](/img/microservice.png)
 
 - Let's do some testing of our microservice with the following topics (this must be in Spanish because we train our model with the theses published by the National Autonomous University of Mexico (UNAM))
-    - Matemáticas discretas
-    - Sismos
+
+- Matemáticas discretas
+![Matemáticas discretas 1-3](/img/discretas1.png)
+![Matemáticas discretas 4-6](/img/discretas2.png)
+![Matemáticas discretas 7-9](/img/discretas3.png)
+![Matemáticas discretas 10](/img/discretas4.png)
+- Sismos
+
     - Saturno
     - Arte barroco
     - Ecología de bosques de pino
