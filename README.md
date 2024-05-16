@@ -202,8 +202,12 @@ These microservice implementation functions were not only written in the directo
 ![Newton 7-9](/img/Newton3.png)
 ![Newton 10](/img/Newton4.png)
 - México
+![México 1-3](/img/mexico1.png)
+![México 4-6](/img/mexico2.png)
+![México 7-9](/img/mexico3.png)
+![México 10](/img/mexico4.png)
+- Software para radiotelescopios
 
-    - Software para radiotelescopios
     - Machine learning
     - Análisis de cuencas hídricas
     - Volcanes
