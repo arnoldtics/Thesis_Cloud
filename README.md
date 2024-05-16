@@ -197,8 +197,12 @@ These microservice implementation functions were not only written in the directo
 ![Antropologia 7-9](/img/antropologia3.png)
 ![Antropologia 10](/img/antropologia4.png)
 - Newton
+![Newton 1-3](/img/Newton1.png)
+![Newton 4-6](/img/Newton2.png)
+![Newton 7-9](/img/Newton3.png)
+![Newton 10](/img/Newton4.png)
+- México
 
-    - México
     - Software para radiotelescopios
     - Machine learning
     - Análisis de cuencas hídricas
