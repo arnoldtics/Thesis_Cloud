@@ -171,8 +171,12 @@ These microservice implementation functions were not only written in the directo
 ![Bolsa de valores 4-6](/img/bolsaValores2.png)
 ![Bolsa de valores 7-9](/img/bolsaValores3.png)
 ![Bolsa de valores 10](/img/bolsaValores4.png)
-    - Vacunas
-    - Pandemia
+- Vacunas
+![Vacunas 1-3](/img/vacuna1.png)
+![Vacunas 4-6](/img/vacuna2.png)
+![Vacunas 7-9](/img/vacuna3.png)
+![Vacunas 10](/img/vacuna4.png)
+- Pandemia
     - Tortugas marinas
     - Sociología
     - Antropología
