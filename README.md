@@ -161,8 +161,12 @@ These microservice implementation functions were not only written in the directo
 ![Pedagogía 4-6](/img/pedagogia2.png)
 ![Pedagogía 7-9](/img/pedagogia3.png)
 ![Pedagogía 10](/img/pedagogia4.png)
-- Oceanografía
-    - Bolsa de valores
+- Océano
+![Océano 1-3](/img/oceano1.png)
+![Océano 4-6](/img/oceano2.png)
+![Océano 7-9](/img/oceano3.png)
+![Océano 10](/img/oceano4.png)
+- Bolsa de valores
     - Vacunas
     - Pandemia
     - Tortugas marinas
