@@ -217,8 +217,12 @@ These microservice implementation functions were not only written in the directo
 ![Machine learning 7-9](/img/machineLearning3.png)
 ![Machine learning 10](/img/machineLearning4.png)
 - Análisis de cuencas hídricas
+![Análisis de cuencas hídricas 1-3](/img/cuencas1.png)
+![Análisis de cuencas hídricas 4-6](/img/cuencas2.png)
+![Análisis de cuencas hídricas 7-9](/img/cuencas3.png)
+![Análisis de cuencas hídricas 10](/img/cuencas4.png)
+- Volcanes
 
-    - Volcanes
 
 ## Conclusions
 
