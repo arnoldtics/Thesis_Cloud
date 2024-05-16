@@ -192,7 +192,12 @@ These microservice implementation functions were not only written in the directo
 ![Sociología 7-9](/img/sociologia3.png)
 ![Sociología 10](/img/sociologia4.png)
 - Antropología
-    - Newton
+![Antropologia 1-3](/img/antropologia1.png)
+![Antropologia 4-6](/img/antropologia2.png)
+![Antropologia 7-9](/img/antropologia3.png)
+![Antropologia 10](/img/antropologia4.png)
+- Newton
+
     - México
     - Software para radiotelescopios
     - Machine learning
