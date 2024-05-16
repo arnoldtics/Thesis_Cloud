@@ -118,10 +118,13 @@ These microservice implementation functions were not only written in the directo
 
 ## Testing and Results
 - Thesis Cloud Home Page
+![Home Page](/img/home.png)
 
 - Visualization of the number of theses published per year 
+![visualization](/DataVisualizationServices/Number_of_theses_published_per_year.png)
 
 - Microservice
+![Microservice](/img/microservice.png)
 
 - Let's do some testing of our microservice with the following topics (this must be in Spanish because we train our model with the theses published by the National Autonomous University of Mexico (UNAM))
     - Matemáticas discretas
@@ -143,6 +146,7 @@ These microservice implementation functions were not only written in the directo
     - Software para radiotelescopios
     - Machine learning
     - Análisis de cuencas hídricas
+    - Volcanes
 
 ## Conclusions
 
