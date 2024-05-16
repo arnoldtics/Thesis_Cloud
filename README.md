@@ -187,7 +187,11 @@ These microservice implementation functions were not only written in the directo
 ![Tortugas marinas 7-9](/img/tortugasMarinas3.png)
 ![Tortugas marinas 10](/img/tortugasMarinas4.png)
 - Sociología
-    - Antropología
+![Sociología 1-3](/img/sociologia1.png)
+![Sociología 4-6](/img/sociologia2.png)
+![Sociología 7-9](/img/sociologia3.png)
+![Sociología 10](/img/sociologia4.png)
+- Antropología
     - Newton
     - México
     - Software para radiotelescopios
