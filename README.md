@@ -147,7 +147,11 @@ These microservice implementation functions were not only written in the directo
 ![Arte barroco 7-9](/img/arte_barroco3.png)
 ![Arte barroco 10](/img/arte_barroco4.png)
 - Ecología de bosques de pino
-    - Calentamiento global
+![Ecología de bosques de pino 1-3](/img/ecologiaPinos1.png)
+![Ecología de bosques de pino 4-6](/img/ecologiaPinos2.png)
+![Ecología de bosques de pino 7-9](/img/ecologiaPinos3.png)
+![Ecología de bosques de pino 10](/img/ecologiaPinos4.png)
+- Calentamiento global
     - Pedagogía
     - Oceanografía
     - Bolsa de valores
