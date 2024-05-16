@@ -177,7 +177,11 @@ These microservice implementation functions were not only written in the directo
 ![Vacunas 7-9](/img/vacuna3.png)
 ![Vacunas 10](/img/vacuna4.png)
 - Pandemia
-    - Tortugas marinas
+![Pandemia 1-3](/img/pandemia1.png)
+![Pandemia 4-6](/img/pandemia2.png)
+![Pandemia 7-9](/img/pandemia3.png)
+![Pandemia 10](/img/pandemia4.png)
+- Tortugas marinas
     - Sociología
     - Antropología
     - Newton
