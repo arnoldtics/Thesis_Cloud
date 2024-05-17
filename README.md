@@ -226,7 +226,11 @@ These microservice implementation functions were not only written in the directo
 ![Vulcanología 10](/img/vulcanologia4.png)
 
 ## Conclusions
+This work has been an extremely exciting and satisfying challenge. The reality is that due to the potential of this data, there is still a lot of work to be done. Up to this point, we have managed to implement a highly useful microservice for the community.
 
+Addressing the initial project objectives, we have undoubtedly fulfilled all of them. From the application of different technologies studied in the distributed computing course, the creation of data extraction algorithms, the implementation of our deep learning model, our thesis search microservice, and the cataloging that the microservice itself generates.
+
+For future work, we can easily put this model into production. Therefore, the next natural step would be to set up a more robust server and dockerize the microservice, reaching version 1.0 of Thesis Cloud. Additionally, to scale this project, it is necessary to improve our methods of acquiring and updating data. Similarly, we can implement better deep learning models for natural language processing. Ultimately, this is not only about making our thesis search engine more robust but also about implementing more microservices that support the university community and the entire country. Positioning the Thesis Cloud project as one of the most important data mining projects in repositories and libraries in the country.
 
 ## References
 - TESIUNAM
