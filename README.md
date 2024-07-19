@@ -48,6 +48,7 @@ This work represents an innovative approach that has not yet been explored and o
         - Standard library
         - Numpy
         - Matplotlib
+        - Scipy
         - Pickle
         - Natural Language Processing and Deep Learning libraries 
             - Spacy
@@ -79,6 +80,7 @@ First of all, it is necessary to have each of the tools of the current developme
 - Python 3.12 https://www.python.org/downloads/release/python-3120/
 - Numpy 1.24.4 https://numpy.org/devdocs/release/1.24.4-notes.html
 - Matplotlib 3.8.3 https://matplotlib.org/3.8.3/users/release_notes.html#version-3-8
+- Scipy 1.12 https://docs.scipy.org/doc/scipy/release/1.12.0-notes.html
 - Pickle 4.0 https://docs.python.org/3/library/pickle.html
 - Spacy 3.7.4 https://spacy.io/usage
 - Spacy Spanish Model: es_core_news_sm https://spacy.io/models
