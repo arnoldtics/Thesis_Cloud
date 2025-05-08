@@ -24,7 +24,7 @@ def get_number_of_thesis() -> int:
     text1 = driver.find_element(by=By.XPATH, value="/html/body/section[5]/div/div/div/p/strong").text.strip().split()
     return int(text1[-1][:-1])
 
-years = [(str(year), str(year)) for year in range(1920, 2025)]
+years = [(str(year), str(year)) for year in range(1920, 2026)]
 years.insert(0, (str(1900), str(1919)))
 years.insert(0, (str(1800), str(1899)))
 
