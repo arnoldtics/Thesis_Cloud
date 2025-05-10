@@ -52,7 +52,7 @@ with open("report.txt", "w") as f:
                 f.write(f"{year1} {n - count}\n")
         else:
             count = df[(df["Year"] >= int(year1)) & (df["Year"] <= int(year2))].shape[0]
-            if n - count:
+            if n - count > 0:
                 f.write(f"{year1} {year2} {n - count}\n")
 
         print(year1, n-count)
