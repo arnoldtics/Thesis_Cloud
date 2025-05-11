@@ -1,5 +1,3 @@
-from collections import Counter
-
 PATH = "../DataAcquisition/Title-Author/"
 
 with open("Titles.txt", "w", encoding="utf8") as output:
@@ -15,7 +13,7 @@ with open("Titles.txt", "w", encoding="utf8") as output:
 
     writeTitles(PATH + "1800-1899.txt")
     writeTitles(PATH + "1900-1919.txt")
-    for year in range(1920, 2025): writeTitles(PATH + str(year) + ".txt")
+    for year in range(1920, 2026): writeTitles(PATH + str(year) + ".txt")
 
 with open("Titles.txt", "r", encoding="utf8") as f:
     lines = f.readlines()

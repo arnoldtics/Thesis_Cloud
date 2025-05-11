@@ -30,6 +30,6 @@ def thesisDataframe(filename:str) -> pd.DataFrame:
 
 df = thesisDataframe("1800-1899.txt")
 df = pd.concat([df, thesisDataframe("1900-1919.txt")])
-for year in range(1920, 2025): df = pd.concat([df, thesisDataframe(str(year)+".txt")])
+for year in range(1920, 2026): df = pd.concat([df, thesisDataframe(str(year)+".txt")])
 df.drop_duplicates(inplace=True)
 df.to_csv("Name_LastName_Title_Year.csv", index=False)
