@@ -6,15 +6,21 @@ PATH = "../DataAcquisition/Title-Author/"
 def clean(line:str) -> list:
     i = line.find(",")
     lastName = line[:i].strip()
+    
     j = line.find("sustentante")
     name = line[i+1:j].strip().replace(",", "")
+    
     i = j + 11
-    title = line[i:-9].strip()
-    year = line[-9:].strip()
+    title = line[i:].strip().split()
+    title = " ".join(title[:-1])
+    if title[-1] == "/": title = title[:-1]
+
+    year = line[i:].strip().split()
+    year = year[-1]
     clearYear = ""
     for symbol in year:
         if symbol.isnumeric(): clearYear += symbol
-    if len(clearYear) > 4: clearYear = clearYear[1:]
+
     return [name, lastName, title, clearYear]
 
 def thesisDataframe(filename:str) -> pd.DataFrame:
@@ -25,4 +31,5 @@ def thesisDataframe(filename:str) -> pd.DataFrame:
 df = thesisDataframe("1800-1899.txt")
 df = pd.concat([df, thesisDataframe("1900-1919.txt")])
 for year in range(1920, 2025): df = pd.concat([df, thesisDataframe(str(year)+".txt")])
+df.drop_duplicates(inplace=True)
 df.to_csv("Name_LastName_Title_Year.csv", index=False)
