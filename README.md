@@ -119,7 +119,7 @@ These microservice implementation functions were not only written in the directo
 ![Home Page](/img/home.png)
 
 - Visualization of the number of theses published per year 
-![visualization](/DataVisualizationServices/Number_of_theses_published_per_year.png)
+![visualization](/DataVisualizationServices/Number_of_theses_published_per_year.png) 
 
 - Microservice
 ![Microservice](/img/microservice.png)
