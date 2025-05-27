@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="results-container">
+        <h1 class="title">Search Results</h1>
+        <h3 class="query-text">Your query: "{{ query }}"</h3>
+        
+        {% if results %}
+        <div class="results-list">
+            {% for result in results %}
+            <div class="thesis-item">
+                <div class="thesis-header">
+                    <span class="thesis-title">{{ result.title }}</span>
+                    <span class="thesis-year">{{ result.year }}</span>
+                </div>
+                <div class="thesis-author">{{ result.author }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-results">
+            No results found for your query.
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: blue; 
+    color: goldenrod;
+    padding: 20px 0; /* Reducimos padding vertical */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: calc(4% + 20px); /* Igual que el padding del main + padding del texto */
+    width: 100%;
+}
+
+.logo-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen con el texto */
+    margin-right: 30px;
+}
+
+.logo-img {
+    width: 120px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Centra verticalmente los items */
+    gap: 30px;
+    height: 100%; /* Toma toda la altura del header */
+}
+
+.home-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: x-large;
+    display: inline-flex;
+    align-items: center; /* Centrado vertical perfecto */
+    height: 100%;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: lightcyan;
+    min-height: calc(100vh - 260px);
+    padding: 40px 5%; /* Reducimos los márgenes laterales */
+}
+
+.container {
+    max-width: 1400px; /* Aumentamos el ancho máximo */
+    margin: 0 auto;
+}
+
+.title {
+    color: darkblue; 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px; /* Aumentamos el ancho del título */
+}
+
+.text {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 2000px; /* Aumentamos el ancho del texto */
+}
+
+/* Footer Styles */
+.bottom {
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: large;
+}
+
+/* Elementos adicionales (mantenidos por si los necesitas) */
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.subtitle {
+    color: darkblue;
+    font-size: 20px;
+    margin: 100px 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 60%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    background-color: #fff;
+}
+
+/* Results Page Styles */
+.results-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.query-text {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.thesis-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.thesis-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.thesis-title {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.thesis-year {
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.thesis-author {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.no-results {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}
+
+.visualization {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20px; 
+}
+
+/* Visualization Page Styles */
+.methodology-note {
+    background-color: #f0f8ff;
+    border-left: 4px solid darkblue;
+    padding: 20px;
+    margin: 30px 0;
+    max-width: 900px;
+}
+
+.methodology-note p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.comparison-charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.comparison-img {
+    width: 49%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .comparison-charts {
+        flex-direction: column;
+    }
+    .comparison-img {
+        width: 100%;
+    }
+}

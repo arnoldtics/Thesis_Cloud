@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">Data Visualizations</h1>
+    <div class="text">
+        <p>
+            Explore insights generated from UNAM's thesis data through these interactive visualizations.
+        </p>
+
+        <img class="visualization" src="{{ url_for('static', filename='img/Number_of_theses_published_per_year.png') }}" alt="Theses published per year 1959-2023">
+        
+        <div class="methodology-note">
+            <h3 class="subtitle">Methodological Note on Gender Analysis</h3>
+            <p>
+                The gender classification was performed using authors' first names with Meta's deep learning model 
+                Bart-Large (trained on the MultiNLI dataset for Zero-Shot Classification). The model assigned 
+                probabilities between two categories: "man" and "woman". Only classifications with probability 
+                scores higher than 65% were considered confident assignments; otherwise, theses were categorized 
+                as "unsure". This analysis aims solely to visualize historical participation trends across genders 
+                in academic production at the university.
+            </p>
+            <p>
+                We recognize gender is a spectrum and that name-based classification has limitations. These 
+                visualizations should be interpreted as approximate trends rather than definitive categorizations.
+            </p>
+        </div>
+        
+        <img class="visualization" src="{{ url_for('static', filename='img/Number_of_theses_published_per_sex.png') }}" alt="Theses distribution by gender classification">
+        <img class="visualization" src="{{ url_for('static', filename='img/Number_of_theses_published_per_year_sex.png') }}" alt="Theses per year by gender classification">
+        
+        <div class="comparison-charts">
+            <img class="comparison-img" src="{{ url_for('static', filename='img/Number_of_theses_published_per_year_men.png') }}" alt="Theses per year by men authors">
+            <img class="comparison-img" src="{{ url_for('static', filename='img/Number_of_theses_published_per_year_women.png') }}" alt="Theses per year by women authors">
+        </div>
+    </div>
+{% endblock %}

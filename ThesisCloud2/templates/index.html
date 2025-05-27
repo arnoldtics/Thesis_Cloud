@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">Welcome to Thesis Cloud</h1>
+    <div class="text">
+        <p>
+            Thesis Cloud began as the final project for the Distributed and Cloud Computing course at UNAM Campus Morelia. 
+            It has since evolved into a comprehensive data science project based on deep learning models. 
+            Our mission is to provide the university community with advanced search technology and deliver 
+            meaningful insights about the university's research output.
+        </p>
+    </div>
+
+    <div>
+        <center>
+            <form  action = "/predict" method = "post" enctype="multipart/form-data">
+                <h2 class="subtitle">Please write a topic. We will provide you with the tenth most related theses previously published.</h4>
+                <input type="text" class="input" name="text"/><br>
+                <input type = "submit" class="button" value="Submit">
+            </form>
+        </center>
+    </div>
+{% endblock %}
